@@ -1,1 +1,1 @@
-# This repo contains some write-ups and coding artifacts that I have generated as part of my learnings
+# This repo contains some coding artifacts from my learnings - basically solutions for some probs from hackerrank and other DSA problems. Programming language used is C++
