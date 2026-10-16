@@ -1,4 +1,4 @@
-# practice_cpp
+# cpp-dsa-practice
 
 A personal collection of **C++ solutions to data-structure and algorithm (DSA) problems**: HackerRank-style exercises, LeetCode/interview questions, and a handful of classic algorithm implementations written while learning and preparing for coding interviews.
 
@@ -16,7 +16,7 @@ The code is meant to be read and tinkered with. Each file is a small, self-conta
 ## Repository layout
 
 ```
-practice_cpp/
+cpp-dsa-practice/
 ├── coding_probs_1/   # 13 files – interview problems (arrays, strings, DP, stack, design)
 ├── coding_probs_2/   # 19 files – graph traversals, string matching, tries/automata, caches, DP
 ├── coding_probs_3/   # 22 files – interview problems (BFS/DFS, heaps, sliding window, simulations)
@@ -72,8 +72,8 @@ Each file name describes the problem or algorithm (for example `lru.cpp`, `word_
 Compile one file at a time. There is no Makefile or CMake project.
 
 ```bash
-git clone <repo-url>
-cd practice_cpp
+git clone git@github.com:sudgargcoding/cpp-dsa-practice.git
+cd cpp-dsa-practice
 
 g++ -std=c++17 -Wall -Wextra -o /tmp/lru coding_probs_2/lru.cpp
 /tmp/lru
